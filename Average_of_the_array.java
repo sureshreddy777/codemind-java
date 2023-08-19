@@ -4,15 +4,13 @@ public class Suresh{
         Scanner md = new Scanner (System.in);
         int n = md.nextInt();
         int[] a = new int[n];
-        double sum = 0;
-        double avg;
-        for(int i=0;i<n;i++){
+        for (int i=0;i<n;i++){
             a[i] = md.nextInt();
-        }
-        for(int i=0;i<n;i++){
+        }double sum = 0;
+        for (int i=0;i<n;i++){
             sum+=a[i];
         }
-        avg = sum/n;
+        double avg = sum/n;
         System.out.printf("%.2f",avg);
     }
 }
