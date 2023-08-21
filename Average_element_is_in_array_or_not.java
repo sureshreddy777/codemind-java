@@ -4,23 +4,23 @@ public class Suresh{
         Scanner md = new Scanner (System.in);
         int n = md.nextInt();
         int[] a = new int[n];
-        int sum=0;
         for (int i=0;i<n;i++){
             a[i] = md.nextInt();
-        }
+        }int sum  = 0;
         for (int i=0;i<n;i++){
             sum+=a[i];
         }
         int avg = sum/n;
         int count = 0;
         for (int i=0;i<n;i++){
-            if (avg == a[i]){
+            if (a[i] == avg){
                 count++;
             }
         }
         if (count>0){
             System.out.println("True");
-        }else{
+        }
+        else{
             System.out.println("False");
         }
     }
