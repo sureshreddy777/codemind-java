@@ -7,14 +7,14 @@ public class Suresh{
         for (int i=0;i<n;i++){
             a[i] = md.nextInt();
         }
-        int k = md.nextInt();
-        int count=0;
+        int z = md.nextInt();
+        int count  = 0;
         for (int i=0;i<n;i++){
-            if (a[i] == k){
-                count++;
+            if (a[i] == z){
+                count = 1;
             }
         }
-        if(count>0){
+        if (count == 1){
             System.out.println("True");
         }
         else{
