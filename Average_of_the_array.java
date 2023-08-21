@@ -6,9 +6,10 @@ public class Suresh{
         int[] a = new int[n];
         for (int i=0;i<n;i++){
             a[i] = md.nextInt();
-        }double sum = 0;
+        }
+        double sum = 0;
         for (int i=0;i<n;i++){
-            sum+=a[i];
+            sum += a[i];
         }
         double avg = sum/n;
         System.out.printf("%.2f",avg);
