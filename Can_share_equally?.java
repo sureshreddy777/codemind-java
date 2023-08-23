@@ -5,7 +5,7 @@ public class Suresh{
         int x,y;
         x = md.nextInt();
         y = md.nextInt();
-        if (x%2 == 0 && (x>0 || y%2 == 0)){
+        if (x%2 ==0 &&(x>0 || y%2 ==0)){
             System.out.println("YES");
         }
         else{
