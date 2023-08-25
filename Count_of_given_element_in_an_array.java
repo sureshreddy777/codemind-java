@@ -8,7 +8,7 @@ public class Suresh{
             a[i] = md.nextInt();
         }
         int z = md.nextInt();
-        int count  = 0;
+        int count = 0;
         for (int i=0;i<n;i++){
             if (a[i] == z){
                 count++;
