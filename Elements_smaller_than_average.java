@@ -8,13 +8,13 @@ public class Suresh{
             a[i] = md.nextInt();
         }
         int sum = 0;
-        for (int i=0;i<n;i++){
-            sum+=a[i];
+        for (int i:a){
+            sum += i;
         }
         int avg = sum/n;
         int count = 0;
-        for (int i=0;i<n;i++){
-            if (a[i]<=avg){
+        for (int i:a){
+            if (i <= avg){
                 count++;
             }
         }
