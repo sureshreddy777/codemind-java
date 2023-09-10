@@ -7,12 +7,12 @@ public class Suresh{
         for (int i=0;i<n;i++){
             a[i] = md.nextInt();
         }
-        int s = 0;
-        for (int i=0;i<n;i++){
-            if (a[i]%2 == 0){
-                s = a[i];
+        int even = 0;
+        for (int i:a){
+            if (i%2 == 0){
+                even = i;
             }
         }
-        System.out.println(s);
+        System.out.println(even);
     }
 }
